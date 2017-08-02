@@ -1,16 +1,17 @@
-Source Code for Neptune Device
+Source Code for NeptuneBox Device: neptunebox.com
 
-Allows reading of NMEA 2000 network bus. Transmits data via wifi. 
+Allows reading of NMEA2000 network bus. Transmits data via wifi in Seasmart.
 
-Hardware requirements:
+Hardware specifications:
 - Arduino Due board
-- ESP8266 ESP-01S
+- ESP8266 *ESP-07
 - Waveshare SN65HVD230 CAN bus
 - Active NMEA2000 bus
 
-internal CAN you will also need NMEA2000_due library and due_can library, which you can download from https://github.com/collin80/due_can
+Neptune relies on the following libraries to run on the Arduino Due and make use of the internal CAN bus:
 
-Library requirements:
-- NMEA2000
-- NMEA2000_due
-- due_can
+- NMEA2000: https://github.com/ttlappalainen/NMEA2000
+- NMEA2000_due: https://github.com/ttlappalainen/NMEA2000_due
+- due_can: https://github.com/collin80/due_can
+
+*Previously implemented and tested with ESP-01s. Switched to ESP-07 for external antenna.
