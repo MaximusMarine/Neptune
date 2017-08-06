@@ -17,6 +17,12 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#Image files
+.png
+
+#Fritzing files
+.fzz
+
 # =========================
 # Operating System Files
 # =========================
