@@ -19,6 +19,7 @@ $RECYCLE.BIN/
 
 #Image files
 .png
+.jpg
 
 #Fritzing files
 .fzz
